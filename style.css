@@ -41,7 +41,7 @@ header, footer, section{
 }
 a.button{
     text-decoration: none;
-    padding: 5px 20px;
+    padding: 8px 24px;
     border-radius: 5px;
     color: #FFF;
     display: inline-block;
@@ -112,6 +112,9 @@ a.button{
     color: #FFF;
     opacity: 60%;
 }
+#hero .right img{
+    border-radius: 10px;
+}
 
 /** COLORS **/
 #colors .wrapper{
@@ -146,4 +149,21 @@ a.button{
 }
 #colors .block .square.square4{
     background-color: #5390d9;
+}
+
+/** QUOTE **/
+#quote{
+    background-color: #F8EBFF;
+}
+#quote .wrapper{
+    max-width: 750px;
+    padding: 90px 0;
+}
+#quote .quote{
+    max-width: 750px;
+    font-size: 30px;
+    color: #27003D;
+}
+#quote .author{
+    opacity: 30%;
 }
