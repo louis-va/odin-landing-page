@@ -1,4 +1,4 @@
-/*** RESET ***/
+/** RESET **/
 *, *::before, *::after {
     box-sizing: border-box;
 }
@@ -25,7 +25,7 @@ p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
 }
 
-/*** GENERAL ***/
+/** GENERAL **/
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -53,7 +53,7 @@ a.button{
     border: 1px solid #F9FAF8;
 }
 
-/*** HEADER ***/
+/** HEADER **/
 #header{
     background-color: #1F2937;
     height: 60px;
@@ -83,7 +83,7 @@ a.button{
     text-decoration: none;
 }
 
-/*** HERO ***/
+/** HERO **/
 #hero{
     background-color: #1F2937;
 }
@@ -94,7 +94,7 @@ a.button{
 }
 #hero .left{
     flex: 1;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 #hero .right{
     flex: 1;
@@ -110,4 +110,39 @@ a.button{
     font-size: 18px;
     margin-bottom: 18px;
     color: #E5E7EB;
+}
+
+/** COLORS **/
+#colors .wrapper{
+    padding: 90px 0;
+    text-align: center;
+}
+#colors h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1F2937;
+    margin-bottom: 36px;
+}
+#colors .grid{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 50px;
+}
+#colors .block .square{
+    width: 100%;
+    padding-bottom: 100%;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+#colors .block .square.square1{
+    background-color: #7400b8;
+}
+#colors .block .square.square2{
+    background-color: #6930c3;
+}
+#colors .block .square.square3{
+    background-color: #5e60ce;
+}
+#colors .block .square.square4{
+    background-color: #5390d9;
 }
