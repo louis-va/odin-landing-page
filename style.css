@@ -43,11 +43,11 @@ a.button{
     text-decoration: none;
     padding: 5px 20px;
     border-radius: 5px;
-    color: #F9FAF8;
+    color: #FFF;
     display: inline-block;
 }
 .button.primary{
-    background-color: #5390d9;
+    background-color: #5e60ce;
 }
 .button.secondary{
     border: 1px solid #F9FAF8;
@@ -55,7 +55,7 @@ a.button{
 
 /** HEADER **/
 #header{
-    background-color: #221E22;
+    background-color: #27003D;
     height: 60px;
 }
 #header .wrapper{
@@ -85,7 +85,7 @@ a.button{
 
 /** HERO **/
 #hero{
-    background-color: #221E22;
+    background-color: #27003D;
 }
 #hero .wrapper{
     display: flex;
@@ -104,12 +104,13 @@ a.button{
     font-weight: 700;
     line-height: 1.1;
     margin-bottom: 12px;
-    color: #F9FAF8;
+    color: #FFF;
 }
 #hero .left p{
     font-size: 18px;
     margin-bottom: 18px;
-    color: #E5E7EB;
+    color: #FFF;
+    opacity: 60%;
 }
 
 /** COLORS **/
@@ -120,7 +121,7 @@ a.button{
 #colors h2{
     font-size: 36px;
     font-weight: 700;
-    color: #221E22;
+    color: #27003D;
     margin-bottom: 36px;
 }
 #colors .grid{
