@@ -35,6 +35,9 @@ header, footer, section{
     justify-content: center;
     padding: 0px 30px;
 }
+section{
+    padding: 90px 30px;
+}
 .wrapper{
     max-width: 1000px;
     flex: 1;
@@ -90,7 +93,6 @@ a.button{
 #hero .wrapper{
     display: flex;
     align-items: center;
-    padding: 90px 0;
 }
 #hero .left{
     flex: 1;
@@ -118,7 +120,6 @@ a.button{
 
 /** COLORS **/
 #colors .wrapper{
-    padding: 90px 0;
     text-align: center;
 }
 #colors h2{
@@ -157,7 +158,6 @@ a.button{
 }
 #quote .wrapper{
     max-width: 750px;
-    padding: 90px 0;
 }
 #quote .quote{
     max-width: 750px;
@@ -166,4 +166,18 @@ a.button{
 }
 #quote .author{
     opacity: 30%;
+}
+
+/** CTA **/
+#cta .block{
+    background-color: #27003D;
+    color: #FFF;
+    padding: 40px 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cta .block .left p{
+    opacity: 60%;
 }
