@@ -181,3 +181,13 @@ a.button{
 #cta .block .left p{
     opacity: 60%;
 }
+
+/** FOOTER **/
+#footer{
+    padding: 30px 0;
+}
+#footer p{
+    color: #27003D;
+    opacity: 60%;
+    text-align: center;
+}
