@@ -47,7 +47,7 @@ a.button{
     display: inline-block;
 }
 .button.primary{
-    background-color: #3882F6;
+    background-color: #5390d9;
 }
 .button.secondary{
     border: 1px solid #F9FAF8;
@@ -55,7 +55,7 @@ a.button{
 
 /** HEADER **/
 #header{
-    background-color: #1F2937;
+    background-color: #221E22;
     height: 60px;
 }
 #header .wrapper{
@@ -85,7 +85,7 @@ a.button{
 
 /** HERO **/
 #hero{
-    background-color: #1F2937;
+    background-color: #221E22;
 }
 #hero .wrapper{
     display: flex;
@@ -120,7 +120,7 @@ a.button{
 #colors h2{
     font-size: 36px;
     font-weight: 700;
-    color: #1F2937;
+    color: #221E22;
     margin-bottom: 36px;
 }
 #colors .grid{
